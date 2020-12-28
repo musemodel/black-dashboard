@@ -3,28 +3,39 @@
 <HEAD>
 	<META charset="utf-8"/>
 	<META content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
-	<TITLE>Black Dashboard by Creative Tim</TITLE>
+	<LINK href="https://d2hmont2eqhcre.cloudfront.net/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+	<LINK href="https://d2hmont2eqhcre.cloudfront.net/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+	<LINK href="https://d2hmont2eqhcre.cloudfront.net/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+	<LINK href="https://d2hmont2eqhcre.cloudfront.net/site.webmanifest" rel="manifest"/>
+	<TITLE>我的愛心</TITLE>
 	<LINK href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet"/>
+	<LINK href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
 	<LINK href="/STYLE/black-dashboard.css" rel="stylesheet"/>
+	<LINK href="/STYLE/hearts.css" rel="stylesheet"/>
 </HEAD>
 <BODY>
 <DIV class="wrapper">
 	<DIV class="sidebar">
 		<!-- Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red" -->
-		<DIV class="sidebar-wrapper">
+		<DIV class="sidebar-wrapper" data="blue">
 			<DIV class="logo">
-				<A class="simple-text logo-mini" href="javascript:">CT</A>
-				<A class="simple-text logo-normal" href="javascript:">Creative Tim</A></DIV>
+				<A class="simple-text logo-mini" href="javascript:">
+					<IMG alt="Logo" src="https://d2hmont2eqhcre.cloudfront.net/favicon-32x32.png"/>
+				</A>
+				<A class="simple-text logo-normal" href="javascript:">JkFans</A>
+			</DIV>
 			<UL class="nav">
 				<LI>
 					<A href="index.html">
 						<I class="fad fa-tachometer-alt"></I>
-						<SPAN>Dashboard</SPAN></A>
+						<SPAN>我的愛心</SPAN>
+					</A>
 				</LI>
 				<LI>
 					<A href="./icons.html">
 						<I class="fad fa-icons"></I>
-						<SPAN>Icons</SPAN></A>
+						<SPAN>Icons</SPAN>
+					</A>
 				</LI>
 				<LI>
 					<A href="./map.html">
@@ -77,7 +88,7 @@
 							<SPAN class="navbar-toggler-bar bar3"></SPAN>
 						</BUTTON>
 					</DIV>
-					<A class="navbar-brand" href="javascript:">Table List</A>
+					<A class="navbar-brand" href="javascript:">我的愛心</A>
 				</DIV>
 				<BUTTON aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navigation" data-toggle="collapse" type="button">
 					<SPAN class="navbar-toggler-bar navbar-kebab"></SPAN>
@@ -88,14 +99,15 @@
 					<UL class="navbar-nav ml-auto">
 						<LI class="search-bar input-group">
 							<BUTTON class="btn btn-link" data-target="#searchModal" data-toggle="modal" id="search-button">
-								<i class="fad fa-search"></i>
-								<SPAN class="d-lg-none d-md-block">Search</SPAN>
+								<I class="fad fa-search"></I>
+								<SPAN class="d-lg-none d-md-block">搜尋</SPAN>
 							</BUTTON>
 						</LI>
+						<!--
 						<LI class="dropdown nav-item">
 							<A class="dropdown-toggle nav-link" data-toggle="dropdown" href="javascript:"></A>
 							<DIV class="notification d-none d-lg-block d-xl-block"></DIV>
-							<i class="fad fa-waveform-path"></i>
+							<I class="fad fa-waveform-path"></I>
 							<P class="d-lg-none">Notifications</P>
 							<UL class="dropdown-menu dropdown-menu-right dropdown-navbar">
 								<LI class="nav-link">
@@ -136,6 +148,7 @@
 							</UL>
 						</LI>
 						<LI class="separator d-lg-none"></LI>
+						-->
 					</UL>
 				</DIV>
 			</DIV>
@@ -144,9 +157,9 @@
 			<DIV class="modal-dialog" role="document">
 				<DIV class="modal-content">
 					<DIV class="modal-header">
-						<INPUT class="form-control" id="inlineFormInputGroup" placeholder="SEARCH" type="text"/>
+						<INPUT class="form-control" disabled="" id="inlineFormInputGroup" placeholder="搜索" type="text"/>
 						<BUTTON aria-label="Close" class="close" data-dismiss="modal" type="button">
-							<I class="tim-icons icon-simple-remove"></I>
+							<I class="fad fa-window-close"></I>
 						</BUTTON>
 					</DIV>
 				</DIV>
@@ -158,17 +171,41 @@
 				<DIV class="col-md-12">
 					<DIV class="card">
 						<DIV class="card-header">
-							<H4 class="card-title">Simple Table</H4>
+							<H4 class="card-title">交易歷程</H4>
 						</DIV>
 						<DIV class="card-body">
 							<DIV class="table-responsive">
+								<DIV class="list-group">
+									<DIV class="list-group-item list-group-item-action">
+										<DIV class="d-flex w-100 justify-content-between">
+											<H5 class="mb-1">
+												<SPAN>儲值了&#160;</SPAN>
+												<SPAN>987</SPAN>
+												<SPAN>&#160;️</SPAN>
+												<I class="fad fa-heart"></I>
+											</H5>
+										</DIV>
+									</DIV>
+									<DIV class="list-group-item list-group-item-action">
+										<DIV class="d-flex w-100 justify-content-between">
+											<H5 class="mb-1">
+												<SPAN>打賞了&#160;</SPAN>
+												<SPAN>987</SPAN>
+												<SPAN>&#160;️</SPAN>
+												<I class="fad fa-heart"></I>
+											</H5>
+											<SMALL class="text-muted">主播名</SMALL>
+										</DIV>
+										<SMALL class="text-muted">2020-12-10 15:54:45+08</SMALL>
+									</DIV>
+								</DIV>
+								<!--
 								<TABLE class="table tablesorter">
 									<THEAD class="text-primary">
 									<TR>
-										<TH>Name</TH>
-										<TH>Country</TH>
-										<TH>City</TH>
-										<TH class="text-center">Salary</TH>
+										<TH>類型</TH>
+										<TH>愛心</TH>
+										<TH>時戳</TH>
 									</TR>
 									</THEAD>
 									<TBODY>
@@ -216,72 +253,7 @@
 									</TR>
 									</TBODY>
 								</TABLE>
-							</DIV>
-						</DIV>
-					</DIV>
-				</DIV>
-				<DIV class="col-md-12">
-					<DIV class="card card-plain">
-						<DIV class="card-header">
-							<H4 class="card-title">Table on Plain Background</H4>
-							<P class="category">Here is a subtitle for this table</P>
-						</DIV>
-						<DIV class="card-body">
-							<DIV class="table-responsive">
-								<TABLE class="table tablesorter">
-									<THEAD class="text-primary">
-									<TR>
-										<TH>Name</TH>
-										<TH>Country</TH>
-										<TH>City</TH>
-										<TH class="text-center">Salary</TH>
-									</TR>
-									</THEAD>
-									<TBODY>
-									<TR>
-										<TD>Dakota Rice</TD>
-										<TD>Niger</TD>
-										<TD>Oud-Turnhout</TD>
-										<TD class="text-center">$36,738</TD>
-									</TR>
-									<TR>
-										<TD>Minerva Hooper</TD>
-										<TD>Curaçao</TD>
-										<TD>Sinaai-Waas</TD>
-										<TD class="text-center">$23,789</TD>
-									</TR>
-									<TR>
-										<TD>Sage Rodriguez</TD>
-										<TD>Netherlands</TD>
-										<TD>Baileux</TD>
-										<TD class="text-center">$56,142</TD>
-									</TR>
-									<TR>
-										<TD>Philip Chaney</TD>
-										<TD>Korea, South</TD>
-										<TD>Overland Park</TD>
-										<TD class="text-center">$38,735</TD>
-									</TR>
-									<TR>
-										<TD>Doris Greene</TD>
-										<TD>Malawi</TD>
-										<TD>Feldkirchen in Kärnten</TD>
-										<TD class="text-center">$63,542</TD>
-									</TR>
-									<TR>
-										<TD>Mason Porter</TD>
-										<TD>Chile</TD>
-										<TD>Gloucester</TD>
-										<TD class="text-center">$78,615</TD>
-									</TR>
-									<TR>
-										<TD>Jon Porter</TD>
-										<TD>Portugal</TD>
-										<TD>Gloucester</TD>
-										<TD class="text-center">$98,615</TD>
-									</TR>
-									</TBODY>
-								</TABLE>
+								-->
 							</DIV>
 						</DIV>
 					</DIV>
@@ -290,6 +262,7 @@
 		</DIV>
 		<FOOTER class="footer">
 			<DIV class="container-fluid">
+				<!--
 				<UL class="nav">
 					<LI class="nav-item">
 						<A class="nav-link" href="javascript:">Creative Tim</A>
@@ -301,12 +274,15 @@
 						<A class="nav-link" href="javascript:">Blog</A>
 					</LI>
 				</UL>
+				-->
 				<DIV class="copyright">
-					<SPAN>&#169;</SPAN>
-					<SCRIPT>document.write(new Date().getFullYear());</SCRIPT>
-					<SPAN> made with</SPAN>
+					<SPAN>&#169; </SPAN>
+					<SCRIPT>
+						document.write(new Date().getFullYear());
+					</SCRIPT>
+					<SPAN> made with </SPAN>
 					<I class="tim-icons icon-heart-2"></I>
-					<SPAN>by</SPAN>
+					<SPAN> by </SPAN>
 					<A href="javascript:" target="_blank">Creative Tim</A>
 					<SPAN>for a better web.</SPAN>
 				</DIV>
