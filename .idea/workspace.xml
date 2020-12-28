@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac5b231-8fcc-4a99-93fb-72c3a2c7e7d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SCRIPT/black-dashboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STYLE/black-dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCRIPT/tables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCRIPT/trackjs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/demo/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/demo/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/black-dashboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/black-dashboard.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/SCRIPT/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/tables.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609122872048</updated>
       <workItem from="1609122873589" duration="1908000" />
-      <workItem from="1609127096605" duration="1802000" />
+      <workItem from="1609127096605" duration="3544000" />
     </task>
     <servers />
   </component>
