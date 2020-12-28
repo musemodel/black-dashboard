@@ -20,20 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac5b231-8fcc-4a99-93fb-72c3a2c7e7d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/notifications.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rtl.html" beforeDir="false" afterPath="$PROJECT_DIR$/rtl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/tables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/typography.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upgrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCRIPT/black-dashboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STYLE/black-dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/demo/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/demo/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/black-dashboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/black-dashboard.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/SCRIPT/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +54,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SCRIPT" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Sites\black-dashboard-master\SCRIPT" />
+      <recent name="C:\Sites\black-dashboard-master\STYLE" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Sites\black-dashboard-master\SCRIPT" />
       <recent name="C:\Sites\black-dashboard-master" />
     </key>
   </component>
@@ -77,7 +83,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609122872048</updated>
-      <workItem from="1609122873589" duration="1465000" />
+      <workItem from="1609122873589" duration="1908000" />
+      <workItem from="1609127096605" duration="1802000" />
     </task>
     <servers />
   </component>
@@ -94,8 +101,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="246" key="FileChooserDialogImpl" timestamp="1609127151644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609127151644" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1609122919672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -112,9 +124,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609122919672" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1609123017087">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1609128212447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609123017087" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609128212447" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1609131683243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609131683243" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1609127756232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609127756232" />
   </component>
 </project>
