@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<HTML dir="ltr" lang="zh-Hant">
+<HEAD>
+	<META charset="utf-8"/>
+	<META content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+	<LINK href="../assets/img/apple-icon.png" rel="apple-touch-icon" sizes="76x76"/>
+	<LINK href="../assets/img/favicon.png" rel="icon" type="image/png"/>
+	<TITLE>Black Dashboard by Creative Tim</TITLE>
+	<!-- Fonts and icons -->
+	<LINK href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet"/>
+	<LINK href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"/>
+	<!-- Nucleo Icons -->
+	<LINK href="../assets/css/nucleo-icons.css" rel="stylesheet"/>
+	<!-- CSS Files -->
+	<LINK href="../assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet"/>
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<LINK href="../assets/demo/demo.css" rel="stylesheet"/>
+</HEAD>
+<BODY class="">
+<DIV class="wrapper">
+	<DIV class="sidebar">
+		<!-- Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red" -->
+		<DIV class="sidebar-wrapper">
+			<DIV class="logo">
+				<A class="simple-text logo-mini" href="javascript:">CT</A>
+				<A class="simple-text logo-normal" href="javascript:">Creative Tim</A></DIV>
+			<UL class="nav">
+				<LI class="active">
+					<A href="./index.html">
+						<I class="tim-icons icon-chart-pie-36"></I>
+						<P>Dashboard</P>
+					</A>
+				</LI>
+				<LI>
+					<A href="./icons.html">
+						<I class="tim-icons icon-atom"></I>
+						<P>Icons</P>
+					</A>
+				</LI>
+				<LI>
+					<A href="./map.html">
+						<I class="tim-icons icon-pin"></I>
+						<P>Maps</P>
+					</A>
+				</LI>
+				<LI>
+					<A href="./notifications.html">
+						<I class="tim-icons icon-bell-55"></I>
+						<P>Notifications</P>
+					</A>
+				</LI>
+				<LI>
+					<A href="./user.html">
+						<I class="tim-icons icon-single-02"></I>
+						<P>User Profile</P>
+					</A>
+				</LI>
+				<LI>
+					<A href="./tables.html">
+						<I class="tim-icons icon-puzzle-10"></I>
+						<P>Table List</P>
+					</A>
+				</LI>
+				<LI>
+					<A href="./typography.html">
+						<I class="tim-icons icon-align-center"></I>
+						<P>Typography</P>
+					</A>
+				</LI>
+				<LI>
+					<A href="./rtl.html">
+						<I class="tim-icons icon-world"></I>
+						<P>RTL Support</P>
+					</A>
+				</LI>
+				<LI class="active-pro">
+					<A href="./upgrade.html">
+						<I class="tim-icons icon-spaceship"></I>
+						<P>Upgrade to PRO</P>
+					</A>
+				</LI>
+			</UL>
+		</DIV>
+	</DIV>
+	<DIV class="main-panel">
+		<!-- Navbar -->
+		<NAV class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
+			<DIV class="container-fluid">
+				<DIV class="navbar-wrapper">
+					<DIV class="navbar-toggle d-inline">
+						<BUTTON class="navbar-toggler" type="button">
+							<SPAN class="navbar-toggler-bar bar1"></SPAN>
+							<SPAN class="navbar-toggler-bar bar2"></SPAN>
+							<SPAN class="navbar-toggler-bar bar3"></SPAN></BUTTON>
+					</DIV>
+					<A class="navbar-brand" href="javascript:">Dashboard</A>
+				</DIV>
+				<BUTTON aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navigation" data-toggle="collapse" type="button">
+					<SPAN class="navbar-toggler-bar navbar-kebab"></SPAN>
+					<SPAN class="navbar-toggler-bar navbar-kebab"></SPAN>
+					<SPAN class="navbar-toggler-bar navbar-kebab"></SPAN></BUTTON>
+				<DIV class="collapse navbar-collapse" id="navigation">
+					<UL class="navbar-nav ml-auto">
+						<LI class="search-bar input-group">
+							<BUTTON class="btn btn-link" data-target="#searchModal" data-toggle="modal" id="search-button">
+								<I class="tim-icons icon-zoom-split"></I>
+								<SPAN class="d-lg-none d-md-block">Search</SPAN></BUTTON>
+						</LI>
+						<LI class="dropdown nav-item">
+							<A class="dropdown-toggle nav-link" data-toggle="dropdown" href="javascript:">
+								<DIV class="notification d-none d-lg-block d-xl-block"></DIV>
+								<I class="tim-icons icon-sound-wave"></I>
+								<P class="d-lg-none">Notifications</P>
+							</A>
+							<UL class="dropdown-menu dropdown-menu-right dropdown-navbar">
+								<LI class="nav-link">
+									<A class="nav-item dropdown-item" href="#">Mike John responded to your email</A>
+								</LI>
+								<LI class="nav-link">
+									<A class="nav-item dropdown-item" href="javascript:">You have 5 more tasks</A>
+								</LI>
+								<LI class="nav-link">
+									<A class="nav-item dropdown-item" href="javascript:">Your friend Michael is in town</A>
+								</LI>
+								<LI class="nav-link">
+									<A class="nav-item dropdown-item" href="javascript:">Another notification</A>
+								</LI>
+								<LI class="nav-link">
+									<A class="nav-item dropdown-item" href="javascript:">Another one</A>
+								</LI>
+							</UL>
+						</LI>
+						<LI class="dropdown nav-item">
+							<A class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">
+								<DIV class="photo">
+									<IMG alt="Profile Photo" src="../assets/img/anime3.png"/>
+								</DIV>
+								<B class="caret d-none d-lg-block d-xl-block"></B>
+								<P class="d-lg-none">Log out</P>
+							</A>
+							<UL class="dropdown-menu dropdown-navbar">
+								<LI class="nav-link">
+									<A class="nav-item dropdown-item" href="javascript:">Profile</A>
+								</LI>
+								<LI class="nav-link">
+									<A class="nav-item dropdown-item" href="javascript:">Settings</A>
+								</LI>
+								<LI class="dropdown-divider"></LI>
+								<LI class="nav-link">
+									<A class="nav-item dropdown-item" href="javascript:">Log out</A>
+								</LI>
+							</UL>
+						</LI>
+						<LI class="separator d-lg-none"></LI>
+					</UL>
+				</DIV>
+			</DIV>
+		</NAV>
+		<DIV aria-hidden="true" aria-labelledby="searchModal" class="modal modal-search fade" id="searchModal" role="dialog" tabindex="-1">
+			<DIV class="modal-dialog" role="document">
+				<DIV class="modal-content">
+					<DIV class="modal-header">
+						<INPUT class="form-control" id="inlineFormInputGroup" placeholder="SEARCH" type="text"/>
+						<BUTTON aria-label="Close" class="close" data-dismiss="modal" type="button">
+							<I class="tim-icons icon-simple-remove"></I>
+						</BUTTON>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<!-- End Navbar -->
+		<DIV class="content">
+			<DIV class="row">
+				<DIV class="col-12">
+					<DIV class="card card-chart">
+						<DIV class="card-header">
+							<DIV class="row">
+								<DIV class="col-sm-6 text-left">
+									<H5 class="card-category">Total Shipments</H5>
+									<H2 class="card-title">Performance</H2>
+								</DIV>
+								<DIV class="col-sm-6">
+									<DIV class="btn-group btn-group-toggle float-right" data-toggle="buttons">
+										<LABEL class="btn btn-sm btn-primary btn-simple active" id="0">
+											<INPUT checked="checked" name="options" type="radio"/>
+											<SPAN class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Accounts</SPAN>
+											<SPAN class="d-block d-sm-none">
+											<I class="tim-icons icon-single-02"></I>
+										</SPAN></LABEL>
+										<LABEL class="btn btn-sm btn-primary btn-simple" id="1">
+											<INPUT class="d-none d-sm-none" name="options" type="radio"/>
+											<SPAN class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Purchases</SPAN>
+											<SPAN class="d-block d-sm-none">
+											<I class="tim-icons icon-gift-2"></I>
+										</SPAN></LABEL>
+										<LABEL class="btn btn-sm btn-primary btn-simple" id="2">
+											<INPUT class="d-none" name="options" type="radio"/>
+											<SPAN class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Sessions</SPAN>
+											<SPAN class="d-block d-sm-none">
+											<I class="tim-icons icon-tap-02"></I>
+										</SPAN></LABEL></DIV>
+								</DIV>
+							</DIV>
+						</DIV>
+						<DIV class="card-body">
+							<DIV class="chart-area">
+								<CANVAS id="chartBig1"></CANVAS>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+			<DIV class="row">
+				<DIV class="col-lg-4">
+					<DIV class="card card-chart">
+						<DIV class="card-header">
+							<H5 class="card-category">Total Shipments</H5>
+							<H3 class="card-title">
+								<I class="tim-icons icon-bell-55 text-primary"></I> 763,215</H3>
+						</DIV>
+						<DIV class="card-body">
+							<DIV class="chart-area">
+								<CANVAS id="chartLinePurple"></CANVAS>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+				<DIV class="col-lg-4">
+					<DIV class="card card-chart">
+						<DIV class="card-header">
+							<H5 class="card-category">Daily Sales</H5>
+							<H3 class="card-title">
+								<I class="tim-icons icon-delivery-fast text-info"></I> 3,500€</H3>
+						</DIV>
+						<DIV class="card-body">
+							<DIV class="chart-area">
+								<CANVAS id="CountryChart"></CANVAS>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+				<DIV class="col-lg-4">
+					<DIV class="card card-chart">
+						<DIV class="card-header">
+							<H5 class="card-category">Completed Tasks</H5>
+							<H3 class="card-title">
+								<I class="tim-icons icon-send text-success"></I> 12,100K</H3>
+						</DIV>
+						<DIV class="card-body">
+							<DIV class="chart-area">
+								<CANVAS id="chartLineGreen"></CANVAS>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+			<DIV class="row">
+				<DIV class="col-lg-6 col-md-12">
+					<DIV class="card card-tasks">
+						<DIV class="card-header">
+							<H6 class="title d-inline">Tasks(5)</H6>
+							<P class="card-category d-inline">today</P>
+							<DIV class="dropdown">
+								<BUTTON class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown" type="button">
+									<I class="tim-icons icon-settings-gear-63"></I>
+								</BUTTON>
+								<DIV aria-labelledby="dropdownMenuLink" class="dropdown-menu dropdown-menu-right">
+									<A class="dropdown-item" href="#pablo">Action</A>
+									<A class="dropdown-item" href="#pablo">Another action</A>
+									<A class="dropdown-item" href="#pablo">Something else</A></DIV>
+							</DIV>
+						</DIV>
+						<DIV class="card-body">
+							<DIV class="table-full-width table-responsive">
+								<TABLE class="table">
+									<TBODY>
+									<TR>
+										<TD>
+											<DIV class="form-check">
+												<LABEL class="form-check-label">
+													<INPUT class="form-check-input" type="checkbox" value=""/>
+													<SPAN class="form-check-sign">
+															<SPAN class="check"></SPAN>
+														</SPAN></LABEL>
+											</DIV>
+										</TD>
+										<TD>
+											<P class="title">Update the Documentation</P>
+											<P class="text-muted">Dwuamish Head, Seattle, WA 8:47 AM</P>
+										</TD>
+										<TD class="td-actions text-right">
+											<BUTTON class="btn btn-link" data-original-title="Edit Task" rel="tooltip" title="" type="button">
+												<I class="tim-icons icon-pencil"></I>
+											</BUTTON>
+										</TD>
+									</TR>
+									<TR>
+										<TD>
+											<DIV class="form-check">
+												<LABEL class="form-check-label">
+													<INPUT checked="checked" class="form-check-input" type="checkbox" value=""/>
+													<SPAN class="form-check-sign">
+															<SPAN class="check"></SPAN>
+														</SPAN></LABEL>
+											</DIV>
+										</TD>
+										<TD>
+											<P class="title">GDPR Compliance</P>
+											<P class="text-muted">The GDPR is a regulation that requires businesses to protect the personal data and privacy of Europe citizens for transactions that occur within EU member states.</P>
+										</TD>
+										<TD class="td-actions text-right">
+											<BUTTON class="btn btn-link" data-original-title="Edit Task" rel="tooltip" title="" type="button">
+												<I class="tim-icons icon-pencil"></I>
+											</BUTTON>
+										</TD>
+									</TR>
+									<TR>
+										<TD>
+											<DIV class="form-check">
+												<LABEL class="form-check-label">
+													<INPUT class="form-check-input" type="checkbox" value=""/>
+													<SPAN class="form-check-sign">
+															<SPAN class="check"></SPAN>
+														</SPAN></LABEL>
+											</DIV>
+										</TD>
+										<TD>
+											<P class="title">Solve the issues</P>
+											<P class="text-muted">Fifty percent of all respondents said they would be more likely to shop at a company</P>
+										</TD>
+										<TD class="td-actions text-right">
+											<BUTTON class="btn btn-link" data-original-title="Edit Task" rel="tooltip" title="" type="button">
+												<I class="tim-icons icon-pencil"></I>
+											</BUTTON>
+										</TD>
+									</TR>
+									<TR>
+										<TD>
+											<DIV class="form-check">
+												<LABEL class="form-check-label">
+													<INPUT class="form-check-input" type="checkbox" value=""/>
+													<SPAN class="form-check-sign">
+															<SPAN class="check"></SPAN>
+														</SPAN></LABEL>
+											</DIV>
+										</TD>
+										<TD>
+											<P class="title">Release v2.0.0</P>
+											<P class="text-muted">Ra Ave SW, Seattle, WA 98116, SUA 11:19 AM</P>
+										</TD>
+										<TD class="td-actions text-right">
+											<BUTTON class="btn btn-link" data-original-title="Edit Task" rel="tooltip" title="" type="button">
+												<I class="tim-icons icon-pencil"></I>
+											</BUTTON>
+										</TD>
+									</TR>
+									<TR>
+										<TD>
+											<DIV class="form-check">
+												<LABEL class="form-check-label">
+													<INPUT class="form-check-input" type="checkbox" value=""/>
+													<SPAN class="form-check-sign">
+															<SPAN class="check"></SPAN>
+														</SPAN></LABEL>
+											</DIV>
+										</TD>
+										<TD>
+											<P class="title">Export the processed files</P>
+											<P class="text-muted">The report also shows that consumers will not easily forgive a company once a breach exposing their personal data occurs.</P>
+										</TD>
+										<TD class="td-actions text-right">
+											<BUTTON class="btn btn-link" data-original-title="Edit Task" rel="tooltip" title="" type="button">
+												<I class="tim-icons icon-pencil"></I>
+											</BUTTON>
+										</TD>
+									</TR>
+									<TR>
+										<TD>
+											<DIV class="form-check">
+												<LABEL class="form-check-label">
+													<INPUT class="form-check-input" type="checkbox" value=""/>
+													<SPAN class="form-check-sign">
+															<SPAN class="check"></SPAN>
+														</SPAN></LABEL>
+											</DIV>
+										</TD>
+										<TD>
+											<P class="title">Arival at export process</P>
+											<P class="text-muted">Capitol Hill, Seattle, WA 12:34 AM</P>
+										</TD>
+										<TD class="td-actions text-right">
+											<BUTTON class="btn btn-link" data-original-title="Edit Task" rel="tooltip" title="" type="button">
+												<I class="tim-icons icon-pencil"></I>
+											</BUTTON>
+										</TD>
+									</TR>
+									</TBODY>
+								</TABLE>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+				<DIV class="col-lg-6 col-md-12">
+					<DIV class="card">
+						<DIV class="card-header">
+							<H4 class="card-title">Simple Table</H4>
+						</DIV>
+						<DIV class="card-body">
+							<DIV class="table-responsive">
+								<TABLE class="table tablesorter" id="">
+									<THEAD class="text-primary">
+									<TR>
+										<TH>Name</TH>
+										<TH>Country</TH>
+										<TH>City</TH>
+										<TH class="text-center">Salary</TH>
+									</TR>
+									</THEAD>
+									<TBODY>
+									<TR>
+										<TD>Dakota Rice</TD>
+										<TD>Niger</TD>
+										<TD>Oud-Turnhout</TD>
+										<TD class="text-center">$36,738</TD>
+									</TR>
+									<TR>
+										<TD>Minerva Hooper</TD>
+										<TD>Curaçao</TD>
+										<TD>Sinaai-Waas</TD>
+										<TD class="text-center">$23,789</TD>
+									</TR>
+									<TR>
+										<TD>Sage Rodriguez</TD>
+										<TD>Netherlands</TD>
+										<TD>Baileux</TD>
+										<TD class="text-center">$56,142</TD>
+									</TR>
+									<TR>
+										<TD>Philip Chaney</TD>
+										<TD>Korea, South</TD>
+										<TD>Overland Park</TD>
+										<TD class="text-center">$38,735</TD>
+									</TR>
+									<TR>
+										<TD>Doris Greene</TD>
+										<TD>Malawi</TD>
+										<TD>Feldkirchen in Kärnten</TD>
+										<TD class="text-center">$63,542</TD>
+									</TR>
+									<TR>
+										<TD>Mason Porter</TD>
+										<TD>Chile</TD>
+										<TD>Gloucester</TD>
+										<TD class="text-center">$78,615</TD>
+									</TR>
+									<TR>
+										<TD>Jon Porter</TD>
+										<TD>Portugal</TD>
+										<TD>Gloucester</TD>
+										<TD class="text-center">$98,615</TD>
+									</TR>
+									</TBODY>
+								</TABLE>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<FOOTER class="footer">
+			<DIV class="container-fluid">
+				<UL class="nav">
+					<LI class="nav-item">
+						<A class="nav-link" href="javascript:">Creative Tim</A>
+					</LI>
+					<LI class="nav-item">
+						<A class="nav-link" href="javascript:">About Us</A>
+					</LI>
+					<LI class="nav-item">
+						<A class="nav-link" href="javascript:">Blog</A>
+					</LI>
+				</UL>
+				<DIV class="copyright">©
+					<SCRIPT>
+
+						document.write(new Date().getFullYear())
+
+					</SCRIPT>
+					2018 made with
+					<I class="tim-icons icon-heart-2"></I> by
+					<A href="javascript:" target="_blank">Creative Tim</A> for a better web.
+				</DIV>
+			</DIV>
+		</FOOTER>
+	</DIV>
+</DIV>
+<!--
+<DIV class="fixed-plugin">
+	<DIV class="dropdown show-dropdown">
+		<A data-toggle="dropdown" href="#">
+			<I class="fa fa-cog fa-2x"></I>
+		</A>
+		<UL class="dropdown-menu">
+			<LI class="header-title">Sidebar Background</LI>
+			<LI class="adjustments-line">
+				<A class="switch-trigger background-color" href="javascript:">
+					<DIV class="badge-colors text-center">
+						<SPAN class="badge filter badge-primary active" data-color="primary"></SPAN>
+						<SPAN class="badge filter badge-info" data-color="blue"></SPAN>
+						<SPAN class="badge filter badge-success" data-color="green"></SPAN></DIV>
+					<DIV class="clearfix"></DIV>
+				</A>
+			</LI>
+			<LI class="adjustments-line text-center color-change">
+				<SPAN class="color-label">LIGHT MODE</SPAN>
+				<SPAN class="badge light-badge mr-2"></SPAN>
+				<SPAN class="badge dark-badge ml-2"></SPAN>
+				<SPAN class="color-label">DARK MODE</SPAN></LI>
+			<LI class="button-container">
+				<A class="btn btn-primary btn-block btn-round" href="https://www.creative-tim.com/product/black-dashboard" target="_blank">Download Now</A>
+				<A class="btn btn-default btn-block btn-round" href="https://demos.creative-tim.com/black-dashboard/docs/1.0/getting-started/introduction.html" target="_blank">Documentation</A></LI>
+			<LI class="header-title">Thank you for 95 shares!</LI>
+			<LI class="button-container text-center">
+				<BUTTON class="btn btn-round btn-info" id="twitter">
+					<I class="fab fa-twitter"></I> &middot; 45
+				</BUTTON>
+				<BUTTON class="btn btn-round btn-info" id="facebook">
+					<I class="fab fa-facebook-f"></I> &middot; 50
+				</BUTTON>
+				<BR/>
+				<BR/>
+				<A aria-label="Star ntkme/github-buttons on GitHub" class="github-button" data-icon="octicon-star" data-show-count="true" data-size="large" href="https://github.com/creativetimofficial/black-dashboard">Star</A></LI>
+		</UL>
+	</DIV>
+</DIV>
+-->
+<!--   Core JS Files   -->
+<SCRIPT src="../assets/js/core/jquery.min.js"></SCRIPT>
+<SCRIPT src="../assets/js/core/popper.min.js"></SCRIPT>
+<SCRIPT src="../assets/js/core/bootstrap.min.js"></SCRIPT>
+<SCRIPT src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></SCRIPT>
+<!--  Google Maps Plugin    -->
+<!-- Place this tag in your head or just before your close body tag. -->
+<SCRIPT src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></SCRIPT>
+<!-- Chart JS -->
+<SCRIPT src="../assets/js/plugins/chartjs.min.js"></SCRIPT>
+<!--  Notifications Plugin    -->
+<SCRIPT src="../assets/js/plugins/bootstrap-notify.js"></SCRIPT>
+<!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
+<SCRIPT src="../assets/js/black-dashboard.min.js?v=1.0.0"></SCRIPT>
+<!-- Black Dashboard DEMO methods, don't include it in your project! -->
+<SCRIPT src="../assets/demo/demo.js"></SCRIPT>
+<SCRIPT src="index.js"></SCRIPT>
+<SCRIPT src="https://cdn.trackjs.com/agent/v3/latest/t.js"></SCRIPT>
+</BODY>
+</HTML>
